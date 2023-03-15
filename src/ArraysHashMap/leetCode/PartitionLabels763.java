@@ -23,6 +23,8 @@ public class PartitionLabels763 {
     }
 
     public static void main(String[] args) {
-        partitionLabels("ababcbacadefegdehijhklij");
+        List<Integer> answer;
+        answer = partitionLabels("hiakhkfafakjkhzmbvmzbmvzmbnz");
+        System.out.println(answer);
     }
 }

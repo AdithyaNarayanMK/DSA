@@ -1,7 +1,7 @@
 package ArraysHashMap.leetCode;
 
 public class RemoveDuplicatesfromSortedArray26 {
-    public int removeDuplicates(int[] nums) {
+    public  static int removeDuplicates(int[] nums) {
         if(nums.length == 0)
             return 0;
         int slow = 0;
@@ -11,6 +11,11 @@ public class RemoveDuplicatesfromSortedArray26 {
                 nums[slow] = nums[fast];
             }
         }
-        return slow;
+        return slow+1;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {0 ,0 ,1 ,1 ,1, 2, 2 ,3 ,3 ,4};
+        System.out.println(removeDuplicates(nums));
     }
 }
