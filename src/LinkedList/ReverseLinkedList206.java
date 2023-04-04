@@ -52,7 +52,7 @@ public class ReverseLinkedList206 {
 
 
 
-    public class ListNode {
+    private class ListNode {
       int val;
       ListNode next;
       ListNode() {}
