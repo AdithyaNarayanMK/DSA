@@ -1,4 +1,4 @@
-package Contest;
+package CollegeContest;
 
 import java.util.Scanner;
 

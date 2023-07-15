@@ -1,7 +1,5 @@
-package Contest;
+package CollegeContest;
 
-import java.util.Arrays;
-import java.util.OptionalInt;
 import java.util.Scanner;
 
 public class StockProfit {

@@ -1,6 +1,5 @@
-package Contest;
+package CollegeContest;
 
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class MigratoryBirds {
