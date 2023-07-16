@@ -2,6 +2,11 @@ package ArraysHashMap.leetCode;
 
 public class MinimumCostToMoveChips1217 {
     //Position array elements i.e, ith element is in position[i]th position
+    /*
+        T.C - O(N)
+        S.C - O(1)
+     */
+
     public int minCostToMoveChips(int[] position) {
         //As the cost of moving the chip by +2 or -2 cost 0 from problem statement
         //So move all odd elements(i.e, position of the chip is odd index) to 1
