@@ -1,7 +1,4 @@
 package LeetCodeContest.WeeklyContest354;
-
-
-
 public class MaximumBeautyofanArrayAfterApplyingOperation {
     static int offset = 100000;
     public static int maximumBeauty(int[] nums, int k) {
